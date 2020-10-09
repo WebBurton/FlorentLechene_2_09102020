@@ -1,0 +1,54 @@
+h4
+{
+    color: gray;
+}
+ul {
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    }
+   li {
+    margin-left:2px;
+    float:left;
+    
+    }
+   ul li a {
+    display:block;
+    float:left;   
+    width:100px;
+    color: #0065FC;
+    text-decoration:none;
+    text-align:center;
+    padding:5px;
+    border-radius: 10px;
+    border-color:#DCDCDC #696969 #696969 #DCDCDC;
+    
+}
+ul li a:hover {
+    background-color:#D3D3D3;
+    border-color:#696969 #DCDCDC #DCDCDC #696969;
+    } 
+    a:visited
+    {
+        color: midnightblue;
+    }
+    input
+    {
+        border-radius: 10px;
+        padding: 5px;
+    }
+    button
+    {
+        border-radius: 10px;
+        padding: 5px;
+       background-color:#0065FC ;
+       color: white;
+    }
+    ::placeholder
+    {
+        color: black;
+    }
+    .theme
+    {
+        color: black;
+    }
