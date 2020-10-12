@@ -42,8 +42,11 @@ ul li a:hover {
         width: 10%;
         height: 10%;
     }
-    h1{
-      width: 50%;
-      height: 50%;
-    }
-  
+#filtres
+{
+    color: black;
+}
+#thirdUl
+{
+text-decoration-color: gray;
+}
