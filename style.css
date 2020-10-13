@@ -26,12 +26,7 @@ button
 {
     color: black;
 }
-ul li
-{
-    border-width: 1px;
-    border-radius: 50px;
-    margin: auto;
-}
+
 main
 {
     border: solid 1px white;
@@ -61,4 +56,17 @@ img {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
+}
+#firstUl
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ 
+    
+}
+#secondUl
+{
+    display: flex;
+    flex-direction: row;
 }
