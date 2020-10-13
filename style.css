@@ -50,3 +50,15 @@ img {
 {
     text-decoration-color: gray;
 }
+#firstNav
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+#main2
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
