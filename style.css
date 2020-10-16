@@ -1,0 +1,27 @@
+#hebergements
+{
+    width: 5%;
+}
+#populaires
+{
+    width: 5%;
+}
+#activites
+{
+    width: 5%;
+}
+#l_a_i
+{
+    display: flex;
+    justify-content: flex-end;
+}
+#e_f_r_p
+{
+    display: flex;
+    flex-direction: row;
+}
+#populaires
+{
+
+}
+#a-propos
