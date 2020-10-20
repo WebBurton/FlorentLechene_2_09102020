@@ -1,400 +1,489 @@
 /* HEADER*/
 *{
-    font-family:'Raleway', sans-serif;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-   }
-   body{
-    min-height: 100%;
-    margin-right:auto;
-    margin-top: 3px;
-   }
-  
-  header{
-    display: flex;
-    margin: auto;
-  }
-  .logo{
-   width: 100px;
-   height: 50px;
-   margin-right: auto;
-   margin-left: 35px;
-   margin-top: 13px;
-  }
-  
-  a.log-in{
-   display: flex;
-   color: #0065FC;
-   font-weight:bold;
-   padding: 32px;
-   font-size: 17px;
-  }
-  nav.nav-bar{
-    margin-top: 32px;
-    font-size: 17px;
-  }
-  a.hebergements{
-    padding: 32px;
-    color: #0065FC;
-    text-align: center;
-    border-top: 3px solid #0065FC;
-  }
-  a.activités{
-    padding: 32px;
-    color: black;
-  }
-  
-  /* MAIN */
-  
-  h1{
-   margin-top: 30px;
-   margin-left: 35px;
-   margin-bottom: 10px;
-  } 
-  p.description{
-   width: 85%;
-   margin-left: 37px;
-   margin-top: 12px;
-   margin-bottom: 20px;
-   color: grey;
-  }
-  .search{
-    width: 85%;
-    margin-bottom: 35px;
-  }
-  .place-icon{
-    padding: 17px 20px;
-    margin-left: 35px;
-    background-color: #F2F2F2;
-    border-radius: 15px 0 0 15px;
-  }
-  input{
-   position: relative;
-   width: 250px;
-   height: 53px;
-   padding: 0 25px;
-   border: 3px solid #F2F2F2;
-  }
-  .search-button{
-    background-color: #0065FC;
-    color: white;
-    padding: 0px 25px;
-    font-size: 15px;
-    height: 53px;
-    border-radius: 0 15px 15px 0;
-    border-color:#0065FC;
-  }
-  
-  ::placeholder{
-   font-weight: bold;
-   font-size: 17px;
-   color: black;
-   padding-left: 0px;
-   text-align: left;
-  }
-  
-  h2{
-    margin-left: 35px;
-    margin-right: 25px;
-    margin-top: 7px;
-    display: flex;
-  }
-  p.info{
-      color: grey;
-  }
-  
-  /* SECTION AVEC LES FILTRES*/
-  
-  .filtres{
-    display: flex;
-    margin-bottom: 15px;
-  }
-  i.fas.fa-money-bill-wave-alt:before{
-    position: absolute;
-    color: #0065FC;
-    padding: 17px;
-    border-radius: 30px;
-    background-color: #93BFFF;
-    width: fit-content;
-    height: fit-content;
-  }
-  i.fas.fa-child:before{
-    position: absolute;
-    color: #0065FC;
-    padding: 17px;
-    border-radius: 30px;
-    background-color: #93BFFF;
-    width: fit-content;
-    height: fit-content;
-  }
-  i.fas.fa-heart:before{
-    position: absolute;
-    color: #0065FC;
-    padding: 17px;
-    border-radius: 30px;
-    background-color: #93BFFF;
-    width: fit-content;
-    height: fit-content;
-  }
-  i.fas.fa-dog:before{
-    position: absolute;
-    color: #0065FC;
-    padding: 17px;
-    border-radius: 30px;
-    background-color: #93BFFF;
-    width: fit-content;
-    height: fit-content;
-  }
-  h3.filtre-name{
-    display: flex;
-    margin-top: 11px;
-    margin-bottom: 0;
-    height: fit-content;
-    padding-left: 45px;
-    margin-left: 15px;
-    margin-right: 15px;
-    color: black;
-  }
-  
-  .economic{
-    display: flex;
-    border-radius: 25px;
-    background-color: white;
-    border: 3px solid #F2F2F2;
-    height: 50px;
-    font-size: 15px;
-    font-weight: bold;
-    margin-right: 40px;
-  }
-  .family{
-    display: flex;
-    border-radius: 25px;
-    background-color: white;
-    border: 3px solid #F2F2F2;
-    height: 50px;
-    font-size: 15px;
-    font-weight: bold;
-    margin-right: 40px;
-  }
-  .romantic{
-    display: flex;
-    border-radius: 25px;
-    background-color: white;
-    border: 3px solid #F2F2F2;
-    height: 50px;
-    font-size: 15px;
-    font-weight: bold;
-    margin-right: 40px;
-  }
-  .animals{
-    display: flex;
-    border-radius: 25px;
-    background-color: white;
-    border: 3px solid #F2F2F2;
-    height: 50px;
-    font-size: 15px;
-    font-weight: bold;
-  }
-  .info{
-    margin-top: 25px;
-    margin-left: 35px;
-    margin-bottom: 35px;
-  }
-  
-  /* SECTION HEBERGEMETNS A MARSEILLE*/
-  
-  #first-part{
-    display: flex;
-    height: 630px;
-    margin-left: 35px;
-    margin-right: 35px;
-  }
-  .title-first-part{
-    display: flex;
-    margin-top: 20px;
-    padding-left: 35px;
-    position: absolute;
-    height: fit-content;
-    background-color: #F2F2F2;
-  }
-  #first-part article{
-    display: flex;
-    width: fit-content;
-    height: fit-content;
-    height: 150px;
-  }
-  .gallery-hebergements{
-    transition: all .2s ease-in-out;
-  }
-  .gallery-hebergements:hover{
-    transform: scale(1.1);
-  }
-  
-  div.hebergements-marseille{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 50px;
-    width: fit-content;
-    margin-right: 50px;
-    padding-left: 70px;
-    padding-top: 20px;
-    padding-right: 70px;
-    border-radius: 25px;
-    background-color: #F2F2F2;
-    grid-row-gap: 70px;
-  }
-  .overlay{
-    background-color: white;
-    position: relative;
-    border-radius: 0 0 20px 20px;
-    padding-bottom: 10px;
-    width: 240px;
-    z-index: 4;
-    margin-right: 0px;
-    margin-top: 190px;
-    box-shadow: 0 4px 4px 0 #656565;;
-  }
-  h3.caption{
-    font-size: 17px;
-    margin-left: 15px;
-    margin-bottom: 4px;
-    padding-top: 5px;
-    color: black;
-    font-weight: bold;
-    text-transform: none;
-  }
-  p.caption{
-    margin-left: 15px;
-    margin-bottom: 7px;
-    color: black;
-    margin-top: 3px;
-  }
-  .stars{
-    color: #0065FC;
-    margin-left: 15px;
-  }
-  
-  .grid-image{
-    display: grid;
-    margin-top: 75px;
-    object-fit: cover;
-    border-radius: 20px;
-    position: absolute;
-    width: 240px;
-    height: 140px;
-    border: 5px solid white;
-    box-shadow: 0 20px 20px 0  #656565;
-  }
-  .afficher-plus{
-    margin-top: 50px;
-    font-weight: bold;
-    
-  }
-  /* ASIDE*/
-  
-  aside{
-    display: grid;
-    grid-template-rows: auto repeat(3, 1fr);
-    position: relative;
-    width: 100%;
-    padding-top: 0px;
-    border-radius: 25px;
-    background-color:#F3F1F1;
-  }
-  .header2{
-    height: fit-content;
-    position: absolute;
-  }
-  h2.title-populaire{
-    margin-left: 55px;
-    padding: 20px 0;
-  }
-  .populaire{
-    display: grid;
-    position: relative;
-    width: 120px;
-    margin-top: 70px;
-    padding-left: 55px;
-    align-content: left;
-    row-gap: 25px;
-  }
-  .grid-image2{
-    display: grid;
-    margin-top: 26px;
-    position: absolute;
-    object-fit: cover;
-    border-radius: 15px;
-    width: 220px;
-    height: 150px;
-    border: 5px solid white;
-    box-shadow: 0 2px 2px 0  #656565;
-  }
-  /* ASIDE OVERLAY */
-  
-  .overlay2{
-    display: flex;
-    background-color: white;
-    position: absolute;
-    border-radius:0 20px 20px 0;
-    width: 260px;
-    height: 150px;
-    z-index: 4;
-    margin-left: 150px;
-    margin-top: 26px;
-    box-shadow: 2px 2px 2px 0  #656565;
-  }
-  h3.caption2{
-    display: flex;
-    margin-left: 15px;
-    margin-top: 8px;
-    margin-bottom: 0;
-    width: fit-content;
-    height: fit-content;
-  }
-  p.caption2{
-    margin: 0;
-    display: flex;
-    align-items: left;
-    height: fit-content;
-  }
-  .gallery-populaire{
-    transition: all .2s ease-in-out;
-  }
-  .gallery-populaire:hover{
-    transform: scale(1.1);
-  }
-  
-  /* ACTIVITES A MARSEILLE */
-  
- 
-  div.title-second-part{
-    height: fit-content;
-    overflow: auto;
-  }
-  
-  .grid-image3{
-    display: grid;
-    margin-top: 26px;
-    object-fit: cover; 
-    height: 130px;
-    grid-template-columns: repeat(3, 1fr);
-    width: fit-content;
-    margin-right: 50px;
-    padding-left: 70px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 70px;
-    border-radius: 25px;
-    background-color: #F2F2F2;
+  font-family:'Raleway', sans-serif;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+ }
+ body{
+  min-height: 100%;
+  margin-right:auto;
+  margin-top: 3px;
+ }
 
-  }
-  .div-left{
-    display: grid;
-    grid-template-rows: auto repeat(3, 1fr);
-    
-  }
-  .div-right{
-    display: flex;
-  }
+header{
+  display: flex;
+  margin: auto;
+}
+.logo{
+ width: 100px;
+ height: 50px;
+ margin-right: auto;
+ margin-left: 35px;
+ margin-top: 13px;
+}
+
+a.log-in{
+ display: flex;
+ color: #0065FC;
+ font-weight:bold;
+ padding: 32px;
+ font-size: 17px;
+}
+nav.nav-bar{
+  margin-top: 32px;
+  font-size: 17px;
+}
+a.hebergements{
+  padding: 32px;
+  color: #0065FC;
+  text-align: center;
+  border-top: 3px solid #0065FC;
+}
+a.activités{
+  padding: 32px;
+  color: black;
+}
+
+/* MAIN */
+
+h1{
+ margin-top: 30px;
+ margin-left: 35px;
+ margin-bottom: 10px;
+} 
+p.description{
+ width: 85%;
+ margin-left: 37px;
+ margin-top: 12px;
+ margin-bottom: 20px;
+}
+.search{
+  width: 85%;
+  margin-bottom: 35px;
+}
+.place-icon{
+  padding: 17px 20px;
+  margin-left: 35px;
+  background-color: #F2F2F2;
+  border-radius: 15px 0 0 15px;
+}
+input{
+ position: relative;
+ width: 250px;
+ height: 53px;
+ padding: 0 25px;
+ border: 3px solid #F2F2F2;
+}
+.search-button{
+  background-color: #0065FC;
+  color: white;
+  padding: 0px 25px;
+  font-size: 15px;
+  height: 53px;
+  border-radius: 0 15px 15px 0;
+  border-color:#0065FC;
+}
+
+::placeholder{
+ font-weight: bold;
+ font-size: 17px;
+ color: black;
+ padding-left: 0px;
+ text-align: left;
+}
+
+h2{
+  margin-left: 35px;
+  margin-right: 25px;
+  margin-top: 7px;
+  display: flex;
+}
+
+/* SECTION AVEC LES FILTRES*/
+
+.filtres{
+  display: flex;
+  margin-bottom: 15px;
+}
+i.fas.fa-money-bill-wave-alt:before{
+  position: absolute;
+  color: #0065FC;
+  padding: 17px;
+  border-radius: 30px;
+  background-color: #93BFFF;
+  width: fit-content;
+  height: fit-content;
+}
+i.fas.fa-child:before{
+  position: absolute;
+  color: #0065FC;
+  padding: 17px;
+  border-radius: 30px;
+  background-color: #93BFFF;
+  width: fit-content;
+  height: fit-content;
+}
+i.fas.fa-heart:before{
+  position: absolute;
+  color: #0065FC;
+  padding: 17px;
+  border-radius: 30px;
+  background-color: #93BFFF;
+  width: fit-content;
+  height: fit-content;
+}
+i.fas.fa-dog:before{
+  position: absolute;
+  color: #0065FC;
+  padding: 17px;
+  border-radius: 30px;
+  background-color: #93BFFF;
+  width: fit-content;
+  height: fit-content;
+}
+h3.filtre-name{
+  display: flex;
+  margin-top: 11px;
+  margin-bottom: 0;
+  height: fit-content;
+  padding-left: 45px;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: black;
+}
+
+.economic{
+  display: flex;
+  border-radius: 25px;
+  background-color: white;
+  border: 3px solid #F2F2F2;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 40px;
+}
+.family{
+  display: flex;
+  border-radius: 25px;
+  background-color: white;
+  border: 3px solid #F2F2F2;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 40px;
+}
+.romantic{
+  display: flex;
+  border-radius: 25px;
+  background-color: white;
+  border: 3px solid #F2F2F2;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 40px;
+}
+.animals{
+  display: flex;
+  border-radius: 25px;
+  background-color: white;
+  border: 3px solid #F2F2F2;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.info{
+  margin-top: 25px;
+  margin-left: 35px;
+  margin-bottom: 35px;
+}
+
+/* SECTION HEBERGEMETNS A MARSEILLE*/
+
+#first-part{
+  display: flex;
+  height: 630px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.title-first-part{
+  display: flex;
+  margin-top: 20px;
+  padding-left: 35px;
+  position: absolute;
+  height: fit-content;
+  background-color: #F2F2F2;
+}
+#first-part article{
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  height: 150px;
+}
+.gallery-hebergements{
+  transition: all .2s ease-in-out;
+}
+.gallery-hebergements:hover{
+  transform: scale(1.1);
+}
+
+div.hebergements-marseille{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
+  width: fit-content;
+  margin-right: 50px;
+  padding-left: 70px;
+  padding-top: 20px;
+  padding-right: 70px;
+  border-radius: 25px;
+  background-color: #F2F2F2;
+  grid-row-gap: 70px;
+}
+.overlay{
+  background-color: white;
+  position: relative;
+  border-radius: 0 0 20px 20px;
+  padding-bottom: 10px;
+  width: 240px;
+  z-index: 4;
+  margin-right: 0px;
+  margin-top: 190px;
+  box-shadow: 0 4px 4px 0 #656565;;
+}
+h3.caption{
+  font-size: 17px;
+  margin-left: 15px;
+  margin-bottom: 4px;
+  padding-top: 5px;
+  color: black;
+  font-weight: bold;
+  text-transform: none;
+}
+p.caption{
+  margin-left: 15px;
+  margin-bottom: 7px;
+  color: black;
+  margin-top: 3px;
+}
+.stars{
+  color: #0065FC;
+  margin-left: 15px;
+}
+.grid-image{
+  display: grid;
+  margin-top: 75px;
+  object-fit: cover;
+  border-radius: 20px;
+  position: absolute;
+  width: 240px;
+  height: 140px;
+  border: 5px solid white;
+  box-shadow: 0 20px 20px 0  #656565;
+}
+.afficher-plus{
+  margin-top: 50px;
+  font-weight: bold;
+  
+}
+/* ASIDE*/
+aside{
+  display: grid;
+  grid-template-rows: auto repeat(3, 1fr);
+  position: relative;
+  width: 100%;
+  padding-top: 0px;
+  border-radius: 25px;
+  background-color:#F3F1F1;
+}
+.header2{
+  height: fit-content;
+  position: absolute;
+}
+h2.title-populaire{
+  margin-left: 55px;
+  padding: 20px 0;
+}
+.populaire{
+  display: grid;
+  position: relative;
+  width: 120px;
+  margin-top: 70px;
+  padding-left: 55px;
+  align-content: left;
+  row-gap: 25px;
+}
+.grid-image2{
+  display: grid;
+  margin-top: 26px;
+  position: absolute;
+  object-fit: cover;
+  border-radius: 15px;
+  width: 220px;
+  height: 150px;
+  border: 5px solid white;
+  box-shadow: 0 2px 2px 0  #656565;
+}
+/* ASIDE OVERLAY */
+
+.overlay2{
+  display: flex;
+  background-color: white;
+  position: relative;
+  border-radius:0 20px 20px 0;
+  width: 260px;
+  height: 150px;
+  z-index: 4;
+  margin-left: 150px;
+  margin-top: 26px;
+  box-shadow: 2px 2px 2px 0  #656565;
+}
+h3.caption2{
+  display: flex;
+  font-size: 17px;
+  margin-left: 15px;
+  margin-bottom: 4px;
+  padding-top: 5px;
+  color: black;
+  font-weight: bold;
+  text-transform: none;
+}
+p.caption2{
+  margin-left: 15px;
+  margin-bottom: 7px;
+  color: black;
+  margin-top: 3px;
+}
+.gallery-populaire{
+  transition: all .2s ease-in-out;
+}
+.gallery-populaire:hover{
+  transform: scale(1.1);
+}
+
+/* ACTIVITES A MARSEILLE */
+
+#third-part{
+  display: flex;
+  height: 630px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.title-third-part{
+  display: flex;
+  margin-top: 20px;
+  padding-left: 35px;
+  position: absolute;
+  height: fit-content;
+  background-color: #F2F2F2;
+}
+.gallery-activites{
+  transition: all .2s ease-in-out;
+}
+.gallery-activites:hover{
+  transform: scale(1.1);
+}
+
+div.activites-marseille{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
+  width: fit-content;
+  margin-right: 50px;
+  padding-left: 70px;
+  padding-top: 20px;
+  padding-right: 70px;
+  border-radius: 25px;
+  background-color: #F2F2F2;
+  grid-row-gap: 70px;
+}
+.overlay3{
+  background-color: white;
+  position: relative;
+  border-radius: 0 0 20px 20px;
+  padding-bottom: 10px;
+  width: 240px;
+  z-index: 4;
+  margin-right: 0px;
+  margin-top: 190px;
+  box-shadow: 0 4px 4px 0 #656565;;
+}
+h3.caption{
+  font-size: 17px;
+  margin-left: 15px;
+  margin-bottom: 4px;
+  padding-top: 5px;
+  color: black;
+  font-weight: bold;
+  text-transform: none;
+}
+.grid-image3{
+  display: grid;
+  margin-top: 75px;
+  object-fit: cover;
+  border-radius: 20px;
+  position: absolute;
+  width: 240px;
+  height: 140px;
+  border: 5px solid white;
+  box-shadow: 0 20px 20px 0  #656565;
+}
+.header2{
+  height: fit-content;
+  position: absolute;
+}
+h2.title-activites{
+  margin-left: 55px;
+  padding: 20px 0;
+}
+.activites-marseille{
+  display: grid;
+  position: relative;
+  width: 120px;
+  margin-top: 70px;
+  padding-left: 55px;
+  align-content: left;
+  row-gap: 25px;
+}
+.grid-image3{
+  display: grid;
+  margin-top: 26px;
+  position: absolute;
+  object-fit: cover;
+  border-radius: 15px;
+  width: 220px;
+  height: 150px;
+  border: 5px solid white;
+  box-shadow: 0 2px 2px 0  #656565;
+}
+/* ASIDE OVERLAY */
+
+.overlay3{
+  display: flex;
+  background-color: white;
+  position: relative;
+  border-radius:0 20px 20px 0;
+  width: 260px;
+  height: 150px;
+  z-index: 4;
+  margin-left: 150px;
+  margin-top: 26px;
+  box-shadow: 2px 2px 2px 0  #656565;
+}
+h3.caption3{
+  display: flex;
+  font-size: 17px;
+  margin-left: 15px;
+  margin-bottom: 4px;
+  padding-top: 5px;
+  color: black;
+  font-weight: bold;
+  text-transform: none;
+}
+.gallery-activites{
+  transition: all .2s ease-in-out;
+}
+.gallery-actuvites:hover{
+  transform: scale(1.1);
+}
