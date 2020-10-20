@@ -5,31 +5,31 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
- }
- body{
+}
+body{
   min-height: 100%;
   margin-right:auto;
   margin-top: 3px;
- }
+}
 
 header{
   display: flex;
   margin: auto;
 }
 .logo{
- width: 100px;
- height: 50px;
- margin-right: auto;
- margin-left: 35px;
- margin-top: 13px;
+  width: 100px;
+  height: 50px;
+  margin-right: auto;
+  margin-left: 35px;
+  margin-top: 13px;
 }
 
 a.log-in{
- display: flex;
- color: #0065FC;
- font-weight:bold;
- padding: 32px;
- font-size: 17px;
+  display: flex;
+  color: #0065FC;
+  font-weight:bold;
+  padding: 32px;
+  font-size: 17px;
 }
 nav.nav-bar{
   margin-top: 32px;
@@ -49,15 +49,15 @@ a.activités{
 /* MAIN */
 
 h1{
- margin-top: 30px;
- margin-left: 35px;
- margin-bottom: 10px;
+  margin-top: 30px;
+  margin-left: 35px;
+  margin-bottom: 10px;
 } 
 p.description{
- width: 85%;
- margin-left: 37px;
- margin-top: 12px;
- margin-bottom: 20px;
+  width: 85%;
+  margin-left: 37px;
+  margin-top: 12px;
+  margin-bottom: 20px;
 }
 .search{
   width: 85%;
@@ -70,11 +70,11 @@ p.description{
   border-radius: 15px 0 0 15px;
 }
 input{
- position: relative;
- width: 250px;
- height: 53px;
- padding: 0 25px;
- border: 3px solid #F2F2F2;
+  position: relative;
+  width: 250px;
+  height: 53px;
+  padding: 0 25px;
+  border: 3px solid #F2F2F2;
 }
 .search-button{
   background-color: #0065FC;
@@ -87,11 +87,11 @@ input{
 }
 
 ::placeholder{
- font-weight: bold;
- font-size: 17px;
- color: black;
- padding-left: 0px;
- text-align: left;
+  font-weight: bold;
+  font-size: 17px;
+  color: black;
+  padding-left: 0px;
+  text-align: left;
 }
 
 h2{
@@ -445,6 +445,7 @@ h2.title-activites{
   padding-left: 55px;
   align-content: left;
   row-gap: 25px;
+  border-radius: 25px;
 }
 .grid-image3{
   display: grid;
