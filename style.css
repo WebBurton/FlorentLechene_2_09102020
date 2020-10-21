@@ -314,6 +314,7 @@ h2.title-populaire{
   align-content: left;
   row-gap: 25px;
 }
+
 .grid-image2{
   display: grid;
   margin-top: 26px;
@@ -330,7 +331,6 @@ h2.title-populaire{
 .overlay2{
   display: flex;
   background-color: white;
-  position: relative;
   border-radius:0 20px 20px 0;
   width: 260px;
   height: 150px;
@@ -339,21 +339,28 @@ h2.title-populaire{
   margin-top: 26px;
   box-shadow: 2px 2px 2px 0  #656565;
 }
-h3.caption2{
+h3.caption2{ 
   display: flex;
   font-size: 17px;
-  margin-left: 15px;
-  margin-bottom: 4px;
-  padding-top: 5px;
   color: black;
   font-weight: bold;
   text-transform: none;
+  align-items: flex-start;
+  margin-top: 0;
+  margin-left: 5px;
+  overflow:auto;
+  white-space:nowrap;
 }
 p.caption2{
+  padding: 15px;
   margin-left: 15px;
-  margin-bottom: 7px;
+  margin-bottom: 10px;
   color: black;
-  margin-top: 3px;
+  margin-top: 25px;
+}
+.stars{
+  color: #0065FC;
+  margin-left: 15px;
 }
 .gallery-populaire{
   transition: all .2s ease-in-out;
@@ -372,11 +379,11 @@ p.caption2{
 }
 .title-third-part{
   display: flex;
-  margin-top: 20px;
+  margin-top: 10px;
   padding-left: 35px;
   position: absolute;
   height: fit-content;
-  background-color: #F2F2F2;
+  background-color: white;
 }
 .gallery-activites{
   transition: all .2s ease-in-out;
@@ -389,13 +396,13 @@ div.activites-marseille{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 50px;
-  width: fit-content;
-  margin-right: 50px;
-  padding-left: 70px;
+  width: 100%;
+  margin-right: 100px;
+  padding-left: 100px;
   padding-top: 20px;
   padding-right: 70px;
   border-radius: 25px;
-  background-color: #F2F2F2;
+  background-color: white;
   grid-row-gap: 70px;
 }
 .overlay3{
@@ -403,11 +410,11 @@ div.activites-marseille{
   position: relative;
   border-radius: 0 0 20px 20px;
   padding-bottom: 10px;
-  width: 240px;
+  width: 100%;
   z-index: 4;
   margin-right: 0px;
   margin-top: 190px;
-  box-shadow: 0 4px 4px 0 #656565;;
+  box-shadow: 0 4px 4px 0#656565;;
 }
 h3.caption{
   font-size: 17px;
