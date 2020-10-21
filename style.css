@@ -296,6 +296,7 @@ aside{
   padding-top: 0px;
   border-radius: 25px;
   background-color:#F3F1F1;
+
 }
 .header2{
   height: fit-content;
@@ -329,7 +330,7 @@ h2.title-populaire{
 /* ASIDE OVERLAY */
 
 .overlay2{
-  display: flex;
+  display: grid;
   background-color: white;
   border-radius:0 20px 20px 0;
   width: 260px;
@@ -338,6 +339,8 @@ h2.title-populaire{
   margin-left: 150px;
   margin-top: 26px;
   box-shadow: 2px 2px 2px 0  #656565;
+ 
+ 
 }
 h3.caption2{ 
   display: flex;
@@ -348,8 +351,7 @@ h3.caption2{
   align-items: flex-start;
   margin-top: 0;
   margin-left: 5px;
-  overflow:auto;
-  white-space:nowrap;
+ 
 }
 p.caption2{
   padding: 15px;
