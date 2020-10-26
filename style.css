@@ -1,4 +1,4 @@
-/* HEADER*/
+/* HEADER */
 *{
   font-family:'Raleway', sans-serif;
   padding: 0;
@@ -106,7 +106,7 @@ h2.filtres{
   display: flex;
 }
 
-/* SECTION AVEC LES FILTRES*/
+/* SECTION AVEC LES FILTRES */
 
 .filtres{
   display: flex;
@@ -218,7 +218,7 @@ i.fas.fa-info{
   padding-bottom: 5px;
 }
 
-/************ SECTION HEBERGEMETNS A MARSEILLE***********/
+/* SECTION HEBERGEMETNS A MARSEILLE */
 
 #first-part{
   display: flex;
@@ -313,7 +313,7 @@ p.caption{
   font-weight: bold;
   
 }
-/***************ASIDE*****************/
+/* ASIDE */
 
 aside{
   display: grid;
@@ -349,7 +349,7 @@ h2.title-populaire{
   border: 5px solid white;
   box-shadow: 0 2px 2px 0  #656565;
 }
-/************ ASIDE OVERLAY *************/
+/* ASIDE OVERLAY */
 
 .overlay2{
   display: block;
