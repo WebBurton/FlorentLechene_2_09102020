@@ -241,7 +241,7 @@ i.fas.fa-info
 }
 
 /* SECTION HEBERGEMETNS A MARSEILLE */
-#first-part
+#lodging
 {
   display: flex;
   height: 630px;
@@ -249,7 +249,7 @@ i.fas.fa-info
   margin: auto;
   margin-top: 30px;
 }
-.title-first-part
+.title-lodging
 {
   display: flex;
   margin-top: 20px;
@@ -259,7 +259,7 @@ i.fas.fa-info
   height: fit-content;
   background-color: #F2F2F2;
 }
-#first-part article
+#lodging article
 {
   display: flex;
   width: fit-content;
@@ -414,6 +414,7 @@ h3.caption2
 }
 p.caption2
 {
+  color: black;
   margin: 0;
   color: flex;
   display: block;
@@ -441,7 +442,7 @@ p.caption2
 }
 
 /* ACTIVITES A MARSEILLE */
-#second-part
+#activities
 {
   display: flex;
   margin-top: 70px;
@@ -454,7 +455,7 @@ h2.title3
   width: fit-content;
   height: fit-content;
 }
-div.title-second-part
+div.title-activities
 {
   display: flex;
   position: absolute;
@@ -637,7 +638,7 @@ div.image-up-down2
 {
   transform: scale(1.1);
 }
-.footer
+footer
 {
   display: flex;
   margin-top: 70px;
@@ -674,142 +675,43 @@ div.image-up-down2
   color: black;
 }
 
+/* RESPONSIVE */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 870px) {
-  header {
-     float: none;
-
-     text-align: left;
-  }
-}
-
-
-
-
-
-/*For tablets: */
-@media  screen and (max-width: 600px) {
-  div.hebergements-marseille{
-    grid-template-columns: 2fr 1fr;
-    align-items: center;
-  }
-  #first-part{
-    flex-direction: column;
-  }
-  .gallery-populaire{
-    width: fit-content;
-  }
-}
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* For mobile phones: */
+/* PHONE */
 [class*="col-"] {
-    width: 100%;
-  }
-  
-  @media only screen and (min-width: 600px) {
-    /* For tablets: */
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100%;}
-  }
-  
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  }
+  width: 100%;
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 768px) 
+{
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+/* TABLET */
+@media only screen and (min-width: 600px) 
+{
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
